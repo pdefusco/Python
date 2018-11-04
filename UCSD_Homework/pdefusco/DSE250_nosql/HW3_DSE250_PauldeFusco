@@ -1,0 +1,25 @@
+Q1
+
+MATCH (p1:Person) -[:ACTED_IN]-> (m:Movie) <-[:DIRECTED]- (p2:Person) WHERE p1=p2 RETURN p1.name,m.title
+
+Q2
+
+MATCH (p:Person) -[:DIRECTED]-> (m) WHERE NOT (p)-[:ACTED_IN]->() RETURN distinct(p.name)
+
+Q3
+
+MATCH (p:Person) -[:ACTED_IN]-> (m) SET p:Actor
+
+Q4 CHECK OUTPUT BY SUBBING ACTED_IN INTO R
+MATCH (a)-[r]-(b) WHERE EXISTS(r.roles) WITH b,count(r.roles) as roleCount SET b.roleCount = roleCount
+
+Q5 DOUBLE CHECK
+MATCH (p:Person) -[:DIRECTED]-> (m) <-[r:ACTED_IN]-() WHERE EXISTS(r.roles) return p.name, count(r.roles)
+
+Q6
+MATCH (p:Person) -[:DIRECTED]-> (m:Movie) MATCH Z = (m)<-[:ACTED_IN]- (a:Actor) where all (x in nodes(Z) where p.born>1966 ) return DISTINCT a.name
+
+Q7
+match (n1)-[old:ACTED_IN]->(n2)
+create (n1)-[new:APPEARED_IN]->(n2)
+delete old
