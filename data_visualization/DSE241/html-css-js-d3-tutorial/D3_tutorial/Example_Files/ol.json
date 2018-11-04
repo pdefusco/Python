@@ -1,0 +1,4 @@
+[{"Year":"1924","City":"Chamonix","Sport":"Skating","Discipline":"Figure skating","NOC":"AUT","Event":"individual","Gender":"M","Medal":"Silver","Country":"Austria","Latitude":45.9231,"Longitude":6.8697},
+  {"Year":"1924","City":"Chamonix","Sport":"Skating","Discipline":"Figure skating","NOC":"AUT","Event":"individual","Gender":"W","Medal":"Gold","Country":"Austria","Latitude":45.9231,"Longitude":6.8697},
+  {"Year":"1924","City":"Chamonix","Sport":"Ice Hockey","Discipline":"Ice Hockey","NOC":"CAN","Event":"ice hockey","Gender":"M","Medal":"Gold","Country":"Canada","Latitude":45.9231,"Longitude":6.8697},
+  {"Year":"1924","City":"Chamonix","Sport":"Biathlon","Discipline":"Biathlon","NOC":"FIN","Event":"military patrol","Gender":"M","Medal":"Silver","Country":"Finland","Latitude":45.9231,"Longitude":6.8697}];
