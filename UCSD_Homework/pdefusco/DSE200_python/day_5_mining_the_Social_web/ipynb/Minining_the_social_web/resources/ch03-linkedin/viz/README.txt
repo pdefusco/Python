@@ -1,4 +1,3 @@
-These examples are adapted from:
-* http://bl.ocks.org/mbostock/4063570
-* http://bl.ocks.org/mbostock/4055892
-* http://bl.ocks.org/mbostock/4063550
+version https://git-lfs.github.com/spec/v1
+oid sha256:198539d84ecc9bf9e4e6e7dcbe102fb3684cf23456b29f5da73d0418a7b1dcd4
+size 147

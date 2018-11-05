@@ -1,2 +1,3 @@
-The current version of GHCN Daily is 3.00-upd-2013011106 (i.e, an update that started at 2013011106 [yyyymmddhh] UTC; yyyy=year; mm=month; dd=day; hh=hour),
-created by appending recently available data updates to the last fully reprocessed version: 3.00-por-2012122814.
+version https://git-lfs.github.com/spec/v1
+oid sha256:27cee5c740111ca91757f37a054f483dd5b247e1fc1e175dea3d39f5dcaaf463
+size 270

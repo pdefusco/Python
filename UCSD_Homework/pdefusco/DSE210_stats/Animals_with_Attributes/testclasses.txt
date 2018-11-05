@@ -1,10 +1,3 @@
-chimpanzee
-giant+panda
-leopard
-persian+cat
-pig
-hippopotamus
-humpback+whale
-raccoon
-rat
-seal
+version https://git-lfs.github.com/spec/v1
+oid sha256:94192a9325beddb4016aec0f68df360c1b72c65e186242b3d53d9ead8d58bc0a
+size 92

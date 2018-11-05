@@ -1,23 +1,3 @@
-Deep Learning in Python
-=======================
-
-README
-------
-
-Welcome to Deep Learning in Python!
-
-Your download contains:
-
-1. The Ebook:
-	deep_learning_with_python.pdf
-2. Sample Code:
-	code/
-
-Keep your receipt email, you can use it to re-download your book any time in the future.
-
-Any questions at all, contact me direction via email: jason@MachineLearningMastery.com
-
-Kind Regards,
-
-Jason.
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:0254113e7fd8ad66a46c168b745154c3f6ed31ed492d20ec13506188153dae5c
+size 396

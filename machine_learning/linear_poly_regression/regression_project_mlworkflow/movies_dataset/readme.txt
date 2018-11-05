@@ -1,4 +1,3 @@
-This dataset has been obtained from the following Kaggle competition:
-https://www.kaggle.com/tmdb/tmdb-movie-metadata/data
-
-With this project, my goal is to demonstrate Linear Regression best practices with Sklearn (Python)
+version https://git-lfs.github.com/spec/v1
+oid sha256:baf1cd06998ed17b7d7e03d04280bfd11f1e9ed8e2d618cbcbbf7aaf4e9c73de
+size 224
