@@ -7,6 +7,8 @@
 
 import matplotlib.pyplot as plt
 import seaborn as sns
+import pandas as pd
+import scipy.stats as ss
 
 def show_countplots(df, features, hue):
 
@@ -31,3 +33,4 @@ def show_countplots(df, features, hue):
         ax.legend
 
     plt.show()
+    
