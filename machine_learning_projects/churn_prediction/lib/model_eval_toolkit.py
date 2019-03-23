@@ -35,7 +35,6 @@ from sklearn.impute import SimpleImputer
 from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler, OneHotEncoder, OrdinalEncoder, LabelEncoder, Binarizer, LabelBinarizer
-from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split, GridSearchCV, cross_val_score, StratifiedKFold
 
 ### Execute the workflow in the order as shown below ###
@@ -91,7 +90,10 @@ def processing_pipeline(numeric_features, categorical_features, bin_features, la
         ('cat', categorical_transformer, categorical_features),
         ('bin', binary_transformer, bin_features), 
         ('lab_bin', label_binary_transformer, lab_bin_features) 
-    ])
+    ],  #setting remainder to passthrough so features that are not included are not dropped
+        remainder='passthrough'
+    
+    )
 
     # Append classifier to preprocessing pipeline.
     # Now we have a full prediction pipeline.
